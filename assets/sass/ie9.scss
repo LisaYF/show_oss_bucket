@@ -1,0 +1,24 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+
+/*
+	棘头 by PixWeb
+	pixweb.cn 
+	Free for personal and commercial use under the CCA 3.0 license (pixweb.cn/#/help)
+*/
+
+/* Multi-use */
+
+	.button-big {
+		background-image: url('images/ie/button-big.svg');
+	}
+
+	.button-big:hover {
+		background-image: url('images/ie/button-big-hover.svg');
+	}
+
+	.button-big:active {
+		background-image: url('images/ie/button-big-active.svg');
+	}
